@@ -1,0 +1,11 @@
+app_name: "SparkNYCTaxiETL"
+raw_data_path: "data/raw/yellow_tripdata_2026-01.parquet"
+processed_data_path: "data/processed/clean_taxi_trips.parquet"
+curated_daily_metrics_path: "data/curated/agg_daily_trip_metrics.parquet"
+
+database:
+  host: "127.0.0.1"
+  port: 5432
+  dbname: "taxi_dw"
+  user: "admin"
+  password: "admin"
